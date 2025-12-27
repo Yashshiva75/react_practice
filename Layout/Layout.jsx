@@ -11,6 +11,7 @@ export default function Layout() {
     <div className={`flex h-screen ${theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-100 text-black"}`}>
       
       {/* Sidebar */}
+      // This is from New branch
       <Sidebar />
 
       {/* Main Area */}
